@@ -1,9 +1,10 @@
 package comments_test
 
 import (
-	"compiler-design-go/comments"
 	"fmt"
 	"testing"
+
+	"github.com/Marvin9/compiler-design-go/comments"
 )
 
 func commentErr(input string, expected, got bool, t *testing.T) {
